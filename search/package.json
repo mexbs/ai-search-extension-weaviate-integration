@@ -1,0 +1,27 @@
+{
+  "name": "ai-search-integration",
+  "version": "1.0.0",
+  "description": "AI Search Integration",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node dist/src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2",
+    "cors": "^2.8.6",
+    "events": "^3.3.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "morgan": "^1.10.1",
+    "ts-json-object": "^0.4.1",
+    "typescript": "^5.5.4",
+    "weaviate-client": "^3.11.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.4.1"
+  }
+}

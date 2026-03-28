@@ -1,0 +1,10 @@
+{
+  "runApp": {
+    "port": 5000
+  },
+  "logger": {
+    "minimalLevel": "info"
+  },
+  "allowedIps": [],
+  "isDevelopmentMode": false
+}
